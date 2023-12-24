@@ -1,0 +1,56 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+#postButton {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#postButton:hover {
+    background-color: #2980b9;
+}
+
+#confirmationMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}

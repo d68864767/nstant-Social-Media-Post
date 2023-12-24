@@ -1,0 +1,34 @@
+{
+  "button": {
+    "type": "Flic",
+    "id": "your_button_id"
+  },
+  "socialMediaPlatforms": [
+    {
+      "name": "Twitter",
+      "credentials": {
+        "apiKey": "your_twitter_api_key",
+        "apiSecretKey": "your_twitter_api_secret_key",
+        "accessToken": "your_twitter_access_token",
+        "accessTokenSecret": "your_twitter_access_token_secret"
+      }
+    },
+    {
+      "name": "Facebook",
+      "credentials": {
+        "appId": "your_facebook_app_id",
+        "appSecret": "your_facebook_app_secret",
+        "userAccessToken": "your_facebook_user_access_token"
+      }
+    }
+    // Add more platforms as needed
+  ],
+  "content": {
+    "message": "Your pre-defined message",
+    "image": "URL or path to your image"
+  },
+  "confirmation": {
+    "email": "your_email@example.com",
+    "slack": "your_slack_webhook_url"
+  }
+}
